@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+       <label for="SubirArchivo"> Selecione a continuación su archivo</label> 
+       <input type="file" id="SubirArchivo" name="Selecione su archivo"> <!--El type file sirve para subir archivos-->
+       <br>
+       <br>
+       <input type="submit">
+       <br>
+       <br>
+       <label for="Colorfavorito">Cual es color favorito</label>
+       <input type="color" name="Color favorito" id="Colorfavorito"> <!--El type color sirve para sacar una tabla de seleccion RGA-->
+       <br>
+       <br>
+       <h1>Inserte su correo electronico </h1>   
+       <label for="Correo">Ingrese su cuenta</label>
+       <input type="email" name="Ingrese su correo" id="Correo"> <!--Esto sirve para que salga el criterio de correo-->
+       <br>
+       <br>
+       <label for="password">Ingrese su contraseña</label>
+       <input type="password" id="password"> <!--Esto sirve para registrar contraseñas con diseño de crictado-->
+       <br>
+       <br>
+       <input type="submit">
+       <br>
+       <br>
+       <h2>
+        Poner datos ocultos
+       </h2>
+       <label for="oculto">Mensajes ocultos</label>
+       <input type="hidden" name="oculto" value="oculto">
+       <input type="button" value="login" name="login">
+       <br>
+       <br>
+       <label for="Selecione">Selecione tu lengueje que mas domines</label>
+       <select name="select">
+        <option value="value1">Javascript</option>
+        <option value="value2" selected>Html</option>
+        <option value="value3">Css</option>
+      </select> 
+      <!--Esto sirve para hacer seleciones -->
+      <br>
+      <br>
+      <label for="set">Cuale le gustan</label>
+      <input list="set" id="set" name="set">
+      <datalist id="set">
+        <option value="Chocolate"></option>
+        <option value="Miel"></option>
+        <option value="Cafe"></option>
+      </datalist>
+      <!--El datalist sirve para poder hacer varias opciones en un formulario-->
+      <br>
+      <br>
+      <label for="telefono">Introduzca su telefono</label>
+      <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      <!--Esto sirve para registrar numero de contacto-->
+
+    </form>
+</body>
+</html>
